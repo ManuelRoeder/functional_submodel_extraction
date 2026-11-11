@@ -1,7 +1,7 @@
 # FedHOPE: source code
 
-Source of the method in "Function-Aware Submodel Extraction for
-Model-Heterogeneous Federated Learning" (ESANN 2027 submission). FedHOPE scores
+Source of the method in "Functional Submodel Extraction for
+Model-Heterogeneous Federated Learning". FedHOPE scores
 every channel of the global model by its Hilbert-Schmidt norm, Eq. (3), sorts
 each layer by this score once, and gives every client the top
 $\lceil\beta_n K_i\rceil$ channels of each layer.
